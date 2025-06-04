@@ -1,7 +1,7 @@
 {
   "name": "entregafinal",
   "version": "1.0.0",
-  "description": "**PrimeraEntrega** es una aplicación para la gestión de productos y carritos de compras, creada con **Node.js**, **Express**, y **Socket.io**. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre productos y carritos. Además, se incorpora una experiencia interactiva con **WebSockets**, actualizando la interfaz de usuario en tiempo real sin necesidad de recargar la página.",
+  "description": "Es una aplicación para la gestión de productos y carritos de compras, creada con **Node.js**, **Express**, y **Socket.io**. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre productos y carritos. Además, se incorpora una experiencia interactiva con **WebSockets**, actualizando la interfaz de usuario en tiempo real sin necesidad de recargar la página.",
   "type": "module",
   "main": "index.js",
   "scripts": {

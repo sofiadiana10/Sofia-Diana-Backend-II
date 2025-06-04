@@ -24,7 +24,7 @@ class MailService {
       case EMAIL_TYPES.WELCOME:
         message += `
           <h3 style="color: darkblue">
-            Bienvenido a nuestro Ecommerce de Victornillo!
+            Bienvenido a Ferreteria Diana, ahora al alcance de un click!
           </h3>
           <br>
           Gracias por registrarte en nuestra app.
@@ -36,7 +36,7 @@ class MailService {
       <br>
       <img
         src="cid:logo"
-        alt="Logo de Victornillo"
+        alt="Logo de ferreteria Diana"
         style="margin-top: 30px; width: 300px; height: auto; display: block; margin-left: auto; margin-right: auto; background-color: white; padding: 10px;"
       />
       </body>
@@ -57,8 +57,8 @@ class MailService {
         html,
         attachments: [
           {
-            filename: "logovictornillo.png",
-            path: "./public/images/logovictornillo.png",
+            filename: "logodiana.png",
+            path: "./public/images/logodiana.png",
             cid: "logo",
           },
         ],

@@ -44,7 +44,7 @@ export function initializePassport() {
           try {
             await mailService.sendMail({
               to: user.email,
-              subject: "Bienvenido a Victornillo!",
+              subject: "Bienvenido a Ferreteria Diana!",
               type: EMAIL_TYPES.WELCOME,
             });
           } catch (mailError) {
